@@ -25,7 +25,7 @@ public class Colaborador {
   private Integer id;
 
   @Column(name = "nome")
-  @Size(min = 5, max = 35, message = "O nome deve conter no mínimo 5 caratcters")
+  @Size(min = 5, max = 35, message = "O nome deve conter no mínimo 5 caracteres")
   @NotBlank(message = "O nome não pode ser Vazio.")
   private String nome;
 
@@ -41,10 +41,10 @@ public class Colaborador {
 
   @Column(name = "status")
   @Enumerated(EnumType.STRING)
-  @NotNull(message = "O campo não pode ser Nulo.")
+  @NotNull(message = "O Campo não pode ser Nulo.")
   private Status status;
 
-  @NotBlank(message = "O campo não pode ser Vazio.")
+  @NotBlank(message = "O Campo não pode ser Vazio.")
   @Column(name = "turno")
   @Size(min = 4, message = "No minimo 4 caracteres. O Turno não pode ser vazio.")
   private String turno;
