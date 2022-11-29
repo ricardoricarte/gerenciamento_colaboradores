@@ -12,7 +12,7 @@ https://user-images.githubusercontent.com/56279938/204551396-39c9a4bb-a671-4d49-
 Tecnologias utilizadas Back end Java Spring Boot JPA / Hibernate Maven Thymeleaf Front end HTML / CSS / JS Bootstrap Banco de dados: MySQL Como executar o projeto
 
 Clonar repositório
-git clone https://github.com/ricardoricarte/colaboradores.git
+git clone https://github.com/ricardoricarte/Gerenciamento.git
 
 Entrar na pasta local do projeto
 exemplo: cd colaboradores
