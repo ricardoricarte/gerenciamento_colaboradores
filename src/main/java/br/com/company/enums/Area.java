@@ -10,7 +10,7 @@ public enum Area {
   BACKEND("Backend"),
   FRONTEND("Frontend"),
   TESTES("Testes"),
-  INFRAEXTRUTURA("Infraextrutura"),
+  INFRAESTRUTURA("Infraestrutura"),
   ESTAGIARIOS("Estagiários"),
   RH("Recursos Humanos");
 
